@@ -1,3 +1,5 @@
+/* first section */
+
 body{
     background-color: aliceblue;
 }
@@ -5,6 +7,7 @@ header{
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    
 }
 .banner{
     display: flex;
@@ -13,9 +16,18 @@ header{
     border: 1px solid burlywood;
     padding: 30px 50px 0;
     border-radius: 15px;
+    background-color: black;
+    color: white;
+
 }
 .text-btn{
     width: 50%;
+}
+.text-btn button{
+    background-color: red;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
 }
 .text-btn h3{
     font-size: 40px;
@@ -25,4 +37,12 @@ header{
     position:relative; 
     left:90px; 
     top:2px
+}
+
+/* second section */
+section{
+    width: 850px;
+    height: 340px;
+    border: 1px solid burlywood;
+   
 }
