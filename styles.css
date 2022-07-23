@@ -1,7 +1,8 @@
 /* first section */
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     background-color: aliceblue;
+    font-family: 'Poppins', sans-serif;
 }
 header{
     display: flex;
@@ -14,7 +15,7 @@ header{
     width: 850px;
     height: 340px;
     border: 1px solid burlywood;
-    padding: 30px 50px 0;
+    padding: 30px 50px 50px;
     border-radius: 15px;
     background-color: black;
     color: white;
@@ -27,7 +28,7 @@ header{
     background-color: red;
     padding: 10px;
     border-radius: 8px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .text-btn h3{
     font-size: 40px;
@@ -36,14 +37,14 @@ header{
 .banner-pic{
     position:relative; 
     left:90px; 
-    top:2px
+    top:50px;
 }
 
 /* second section */
 section{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 80px;
 }
 .sec-2{
     width: 850px;
@@ -97,3 +98,35 @@ section{
 }
 
 /* footer section */
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 150px;
+}
+hr{
+    width: 80%;
+    height:1px;
+    border-width:0;
+    color:gray;
+    background-color:gray
+}
+.goal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 0;
+    font-weight: 400;
+}
+.privacy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    
+}
+.privacy>small{
+    margin-left: 60px;
+    font-weight: 400;
+}
