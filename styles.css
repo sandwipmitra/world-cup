@@ -41,8 +41,59 @@ header{
 
 /* second section */
 section{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.sec-2{
     width: 850px;
     height: 340px;
-    border: 1px solid burlywood;
-   
+    /* border: 1px solid burlywood; */
+    padding: 30px 50px 0;  
 }
+.blogs{
+    background-color: black;
+    width: 120px; 
+    display: flex;
+    justify-content: center;
+}
+.blogs-up-match{
+    
+    
+}
+.up-match{
+    padding: 5px 10px 0;
+}
+.up-match{
+    border-radius: 10px;
+}
+.transfer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+.transfer-box{
+    border: .5px solid lightgray;
+    margin-top: 10px;
+    border-radius: 10px;
+ }
+.trans-img img{
+    width: 295px;
+    height: 150px;
+
+}
+.trans-btn button{
+    margin-top: 20px;
+}
+.text-live{
+    width: 250px;
+}
+.time-chat{
+    display: flex;
+    margin-top: -10px;
+}
+.chat-icon{
+    margin-left: 20px;
+}
+
+/* footer section */
