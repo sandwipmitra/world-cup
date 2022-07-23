@@ -1,0 +1,28 @@
+body{
+    background-color: aliceblue;
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.banner{
+    display: flex;
+    width: 850px;
+    height: 340px;
+    border: 1px solid burlywood;
+    padding: 30px 50px 0;
+    border-radius: 15px;
+}
+.text-btn{
+    width: 50%;
+}
+.text-btn h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.banner-pic{
+    position:relative; 
+    left:90px; 
+    top:2px
+}
